@@ -149,6 +149,11 @@ video {
   max-width: 100%;
 }
 
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
 .myNavbar {
   display: flex;
   align-items: center;
@@ -250,8 +255,8 @@ video {
 }
 
 .home {
-  padding-top: 50px;
-  padding-bottom: 100px;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
 }
 .home .dots {
   position: absolute;
@@ -259,54 +264,112 @@ video {
   top: 25%;
 }
 .home-title {
-  max-width: 350px;
+  max-width: 35rem;
   margin: 0 auto;
   line-height: 1.2;
-  font-size: 35px;
+  font-size: 3.5rem;
   font-weight: bold;
-  padding: 50px 0;
+  padding: 5rem 0;
 }
 .home-title .untree {
   color: aqua;
 }
 .home-content-welcome {
   color: #107BE9;
-  font-size: 14px;
+  font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   font-weight: bold;
 }
 .home-content-explore {
-  padding: 10px 0 15px 0;
+  padding: 1rem 0 1.5rem 0;
   font-size: 35px;
   font-weight: bold;
 }
 .home-content-far {
   line-height: 1.5;
-  font-size: 19px;
+  font-size: 1.9rem;
   font-weight: 500;
-  margin-bottom: 20px;
-  letter-spacing: 1.5px;
+  margin-bottom: 2rem;
+  letter-spacing: 0.05rem;
 }
 .home-content-button .button-left {
-  padding: 15px 30px;
+  padding: 1.5rem 3rem;
   border-radius: 100rem;
   background: #107BE9;
   border-color: #107BE9;
   color: white;
-  font-size: 10px;
+  font-size: 1rem;
   font-weight: bold;
   letter-spacing: 1.5px;
 }
 .home-content-button .button-right {
-  padding: 15px 30px;
+  padding: 1.5rem 3rem;
   border-radius: 100rem;
   color: #107BE9;
   border-color: #107BE9;
   background-color: white;
-  font-size: 10px;
+  font-size: 1rem;
   font-weight: bold;
   letter-spacing: 1.5px;
+}
+
+.advantage {
+  padding: 10rem 0;
+}
+.advantage .head .caption {
+  color: #107BE9;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  display: block;
+}
+.advantage .head .heading {
+  font-size: 3.8rem;
+  color: #000000;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+.advantage .head .content {
+  margin-top: 1.5rem;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+.advantage .service {
+  padding: 15px;
+}
+.advantage .service .service-icon {
+  margin-right: 3rem;
+}
+.advantage .service .service-icon i {
+  width: 4.5rem;
+  height: 4.5rem;
+  background-color: #6fe7dd;
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 4.5rem;
+  display: block;
+  color: white;
+  border-radius: 30%;
+}
+.advantage .service .service-content h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+.advantage .service .service-content p {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+}
+.advantage .service .service-content p:last-child {
+  font-size: 1.4rem;
+  color: #107BE9;
+  box-shadow: 1px 1px 2px 0px;
+  letter-spacing: 1px;
+  display: inline;
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=style.css.map */
