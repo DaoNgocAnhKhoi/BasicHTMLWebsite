@@ -21,11 +21,10 @@
             text-align: center;
         }
         .dropdown{
-            // opacity: 0;
-            // visibility: hidden;
+            opacity: 0;
+            visibility: hidden;
             position: absolute;
             z-index: 20;
-            // background-color: red;
             padding: 15px 5px;
             width: 150px;
         }

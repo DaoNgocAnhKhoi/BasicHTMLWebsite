@@ -174,6 +174,8 @@ video {
   text-align: center;
 }
 .myNavbar-list .dropdown {
+  opacity: 0;
+  visibility: hidden;
   position: absolute;
   z-index: 20;
   padding: 15px 5px;
@@ -192,6 +194,57 @@ video {
 .myNavbar-item.has-children:hover .dropdown {
   opacity: 1;
   visibility: visible;
+}
+
+.home {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+.home-title {
+  max-width: 350px;
+  margin: 0 auto;
+  line-height: 1.2;
+  font-size: 35px;
+  font-weight: bold;
+  padding: 50px 0;
+}
+.home-title .untree {
+  color: aqua;
+}
+.home-content-welcome {
+  color: #107BE9;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.home-content-explore {
+  padding: 10px 0 15px 0;
+  font-size: 35px;
+  font-weight: bold;
+}
+.home-content-far {
+  line-height: 1.5;
+  font-size: 19px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.home-content-button .button-left {
+  padding: 15px 30px;
+  border-radius: 100rem;
+  background: #107BE9;
+  border-color: #107BE9;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+}
+.home-content-button .button-right {
+  padding: 15px 30px;
+  border-radius: 100rem;
+  color: #107BE9;
+  border-color: #107BE9;
+  background-color: white;
+  font-size: 10px;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
