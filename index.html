@@ -37,12 +37,14 @@
                                 <a href="elements.html" class="myNavbar-link">Elements</a>
                             </li>
                             <li class="has-children">
-                                <a href="" class="myNavbar-link">Menu Two</a>
-                                <!-- <ul class="dropdown">
-                                    <li><a href="" class="myNavbar-link"></a>Sub MenuOne</li>
-                                    <li><a href="" class="myNavbar-link"></a>Sub MenuTwo</li>
-                                    <li><a href="" class="myNavbar-link"></a>Sub MenuThree</li>
-                                </ul> -->
+                                <div class="has-children-sub">
+                                    <a href="" class="myNavbar-link">Menu Two <i class="fa fa-angle-right ps-2 ps-3"></i></a>
+                                </div>
+                                <ul class="dropdown-sub">
+                                    <li><a href="" class="myNavbar-link">Sub MenuOne</a></li>
+                                    <li><a href="" class="myNavbar-link">Sub MenuTwo</a></li>
+                                    <li><a href="" class="myNavbar-link">Sub MenuThree</a></li>
+                                </ul>
                             </li>
                             <li>
                                 <a href="" class="myNavbar-link">Menu Three</a>
@@ -63,9 +65,12 @@
                     </li>
                 </ul>
                 <ul class="myNavbar-list menu col-3">
-                    <li class="myNavbar-item"><a href="" class="myNavbar-link">Sign in</a></li>
-                    <li class="myNavbar-item"><a href="" class="myNavbar-link">Register</a></li>
+                    <li class="myNavbar-item me-2"><a href="" class="myNavbar-link sign">Sign in</a></li>
+                    <li class="myNavbar-item"><a href="" class="myNavbar-link register">Register</a></li>
                 </ul>
+                <div>
+                    <a class="user"><i class="fa fa-user"></i></a>
+                </div>
             </div>
         </div>
             
@@ -73,6 +78,9 @@
 
     <div class="home">
         <div class="container">
+            <div class="dots">
+                <img src="./images/dots.png" alt="">
+            </div>
             <div class="home-title">
                 <h2 class="text-center">Free Bootstrap 4 Landing Page for SaaS Websites Edit
                     by <span class="untree">Untree.demo</span></h2>

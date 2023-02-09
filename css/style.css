@@ -152,7 +152,7 @@ video {
 .myNavbar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 25px 0;
 }
 .myNavbar a {
@@ -178,27 +178,85 @@ video {
   visibility: hidden;
   position: absolute;
   z-index: 20;
-  padding: 15px 5px;
-  width: 150px;
+  padding: 15px 0px;
+  width: 125px;
+}
+.myNavbar-list .dropdown .myNavbar-link {
+  padding: 0 10px;
+}
+.myNavbar-list .dropdown .has-children {
+  position: relative;
+}
+.myNavbar-list .dropdown .has-children:hover .dropdown-sub {
+  opacity: 1;
+  visibility: visible;
+}
+.myNavbar-list .dropdown .has-children .dropdown-sub {
+  opacity: 0;
+  visibility: hidden;
+  width: 140px;
+  position: absolute;
+  left: 100%;
+  border: 3px solid whitesmoke;
+  transition: all 0.2s linear;
+  z-index: 20;
+}
+.myNavbar-list .dropdown .has-children .dropdown-sub .myNavbar-link {
+  padding: 15px;
+  font-size: bold;
 }
 .myNavbar-item.has-children {
   position: relative;
 }
 .myNavbar-item.has-children .dropdown {
   transition: all 0.2s linear;
-  box-shadow: #000000;
+  border: 3px solid whitesmoke;
 }
 .myNavbar-item.has-children .dropdown li {
-  padding: 5px;
+  padding: 10px 0;
 }
 .myNavbar-item.has-children:hover .dropdown {
   opacity: 1;
   visibility: visible;
 }
+.myNavbar .sign {
+  padding: 8px 22px;
+  border: 1px solid #000000;
+  border-radius: 100rem;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+}
+.myNavbar .register {
+  font-size: 16px;
+  color: white;
+  background-color: #107BE9;
+  padding: 8px 22px;
+  border-radius: 100rem;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+.myNavbar .user {
+  color: cadetblue;
+  cursor: pointer;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: antiquewhite;
+  border-radius: 100rem;
+  display: block;
+  text-align: center;
+  line-height: 35px;
+}
 
 .home {
   padding-top: 50px;
   padding-bottom: 100px;
+}
+.home .dots {
+  position: absolute;
+  right: 0;
+  top: 25%;
 }
 .home-title {
   max-width: 350px;
@@ -215,6 +273,7 @@ video {
   color: #107BE9;
   font-size: 14px;
   text-transform: uppercase;
+  letter-spacing: 1.5px;
   font-weight: bold;
 }
 .home-content-explore {
@@ -227,6 +286,7 @@ video {
   font-size: 19px;
   font-weight: 500;
   margin-bottom: 20px;
+  letter-spacing: 1.5px;
 }
 .home-content-button .button-left {
   padding: 15px 30px;
@@ -236,6 +296,7 @@ video {
   color: white;
   font-size: 10px;
   font-weight: bold;
+  letter-spacing: 1.5px;
 }
 .home-content-button .button-right {
   padding: 15px 30px;
@@ -245,6 +306,7 @@ video {
   background-color: white;
   font-size: 10px;
   font-weight: bold;
+  letter-spacing: 1.5px;
 }
 
 /*# sourceMappingURL=style.css.map */

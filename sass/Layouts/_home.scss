@@ -1,7 +1,11 @@
 .home {
     padding-top: 50px;
     padding-bottom: 100px;
-
+    .dots{
+        position: absolute;
+        right: 0;
+        top: 25%;
+    }
     &-title {
         max-width: 350px;
         margin: 0 auto;
@@ -20,6 +24,7 @@
             color: #107BE9;
             font-size: 14px;
             text-transform: uppercase;
+            letter-spacing: 1.5px;
             font-weight: bold;
         }
 
@@ -33,6 +38,7 @@
             font-size: 19px;
             font-weight: 500;
             margin-bottom: 20px;
+            letter-spacing: 1.5px;
         }
         &-button{
             .button-left{
@@ -43,6 +49,8 @@
                 color: white;
                 font-size: 10px;
                 font-weight: bold;
+            letter-spacing: 1.5px;
+
             }
             .button-right{
                 padding: 15px 30px;
@@ -52,6 +60,7 @@
                 background-color: white;
                 font-size: 10px;
                 font-weight: bold;
+                letter-spacing: 1.5px;
 
             }
         }
