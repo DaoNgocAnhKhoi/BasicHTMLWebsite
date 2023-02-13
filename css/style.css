@@ -159,6 +159,7 @@ html {
   align-items: center;
   justify-content: space-around;
   padding: 25px 0;
+  z-index: 20;
 }
 .myNavbar a {
   text-decoration: none;
@@ -373,3 +374,4 @@ html {
 }
 
 /*# sourceMappingURL=style.css.map */
+

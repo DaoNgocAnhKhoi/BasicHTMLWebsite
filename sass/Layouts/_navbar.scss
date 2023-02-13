@@ -3,7 +3,13 @@
     align-items: center;
     justify-content: space-around;
     padding: 25px 0;
-
+    // position: fixed;
+    // width: 100%;
+    // top: 0;
+    // left: 5%;
+    // right: 5%;
+    // background-color: aliceblue;
+    z-index: 20;
     a {
         text-decoration: none;
     }
