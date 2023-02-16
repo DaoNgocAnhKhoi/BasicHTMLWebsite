@@ -1,0 +1,20 @@
+.testimonials {
+    .testimonials__item {
+        padding: 0 $pd-3 - 5;
+        .author {
+            .author__pic {
+                flex-basis: 70px;
+                img {
+                    border-radius: 50%;
+                }
+
+            }
+
+            .author__desc {
+                strong{
+                    font-weight: $fw-400;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,66 @@
+.pricing {
+    .pricing__content {
+        padding: 0 $pd-5;
+        .pricing__card {    
+            background-color: $color-white; 
+            border-radius: 40px;
+            .body {
+                padding: 50px 70px;
+                .pricing__price {
+                    text-align: center;
+                    .price {
+                        .price {
+                            position: relative;
+                            @include styleTextBasic($color-blue-0, default, default);
+                            sup {
+                                font-size: $fs-2;
+                                top: -15px;
+                                margin-right: -($mg-4 * 0.5);
+                            }
+                            span {
+                                font-size: $fs-4;
+                            }
+                        }
+                        .price__sub {
+                            @include styleTextBasic($color-black, $fs-5, $fw-600);
+                        }
+    
+                    }
+                }
+
+                .pricing__list {
+                    li {
+                        i {
+                            color: $color-blue-0;
+                            margin-right: 5px;
+                        }
+                        margin-bottom: $mg-4;
+                    }
+                }
+                .pricing__get {
+                    .pricing__active {
+                        background-color: $color-blue-1;
+                        color: $color-white;
+                    }
+                    &:hover {
+                        a {
+                            background-color: $color-blue-0;
+                            color: $color-white;
+                        }
+                        
+                    }
+                    a {
+                        border-radius: 20px;
+                        @include styleTextBasic($color-blue-0, $fs-1 - 1, bold);
+                        padding: 15px 30px;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+#cardActive {
+        box-shadow: 0 15px 30px 0 rgb(0 0 0 / 5%);
+}
