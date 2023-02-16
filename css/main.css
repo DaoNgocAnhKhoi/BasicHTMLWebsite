@@ -47,7 +47,7 @@ html {
 }
 .title h1 {
   color: #000000;
-  font-size: 39px;
+  font-size: 42px;
   font-weight: 600;
 }
 
@@ -58,6 +58,15 @@ html {
 
 .section {
   padding: 90px 0;
+}
+
+.list li {
+  line-height: 31px;
+  margin-bottom: 10px;
+}
+.list li i {
+  color: #007bff;
+  margin-right: 5px;
 }
 
 .pricing .pricing__content {
@@ -92,13 +101,6 @@ html {
   font-size: 30px;
   font-weight: 600;
 }
-.pricing .pricing__content .pricing__card .body .pricing__list li {
-  margin-bottom: 10px;
-}
-.pricing .pricing__content .pricing__card .body .pricing__list li i {
-  color: #007bff;
-  margin-right: 5px;
-}
 .pricing .pricing__content .pricing__card .body .pricing__get .pricing__active {
   background-color: #107BE9;
   color: #ffffff;
@@ -130,4 +132,9 @@ html {
 }
 .testimonials .testimonials__item .author .author__desc strong {
   font-weight: 400;
+}
+
+.company .company__content {
+  font-size: 17px;
+  line-height: 33px;
 }/*# sourceMappingURL=main.css.map */

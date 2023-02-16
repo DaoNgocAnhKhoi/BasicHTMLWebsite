@@ -6,11 +6,11 @@
     }
 
     h1 {
-        @include styleTextBasic($color-black, $fs-3, $fw-600);
+        @include styleTextBasic($color-black, $fs-3 + 3, $fw-600);
     }
 }
 
 .hightlight {
     display: inline;
-    background: rgba(16, 123, 233, 0.07);
+    background: $color-blue-2;
 }
