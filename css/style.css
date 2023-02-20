@@ -407,4 +407,13 @@ html {
   font-size: 1.5rem;
 }
 
+.author {
+  padding: 10rem 0;
+}
+.author .person {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
 /*# sourceMappingURL=style.css.map */
