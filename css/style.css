@@ -320,17 +320,18 @@ html {
 }
 .advantage .head .caption {
   color: #107BE9;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 1rem;
   display: block;
 }
 .advantage .head .heading {
-  font-size: 3.8rem;
+  font-size: 4rem;
   color: #000000;
   margin-bottom: 1rem;
   font-weight: bold;
+  letter-spacing: 1px;
 }
 .advantage .head .content {
   margin-top: 1.5rem;
@@ -373,5 +374,37 @@ html {
   cursor: pointer;
 }
 
-/*# sourceMappingURL=style.css.map */
+.digital {
+  padding: 10rem 0;
+}
+.digital .caption {
+  color: #107BE9;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+}
+.digital .heading {
+  font-size: 3.8rem;
+  color: #000000;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.digital .wrap-icon-play {
+  top: 45%;
+  left: 50%;
+  width: 5rem;
+  height: 5rem;
+  background: #ffffff;
+  border-radius: 50%;
+}
+.digital .bi-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+}
 
+/*# sourceMappingURL=style.css.map */
