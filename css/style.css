@@ -452,4 +452,50 @@ html {
   line-height: 1.6;
 }
 
+.features {
+  padding: 10rem 0;
+}
+.features .title-Top {
+  margin-bottom: 5rem;
+}
+.features .caption {
+  color: #107BE9;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  font-family: "Work Sans", sans-serif;
+}
+.features .heading {
+  font-size: 3.8rem;
+  color: #000000;
+  font-weight: 600;
+  font-family: "Work Sans", sans-serif;
+}
+.features .service-icon {
+  margin-right: 3rem;
+}
+.features .service-icon i {
+  width: 4.5rem;
+  height: 4.5rem;
+  background-color: #6fe7dd;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 4.5rem;
+  display: block;
+  color: white;
+  border-radius: 30%;
+}
+.features .service-contents .title {
+  font-family: "Work Sans", sans-serif;
+  color: #000000;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.features .service-contents .content {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
 /*# sourceMappingURL=style.css.map */
