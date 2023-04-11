@@ -1,140 +1,165 @@
-body,
-html {
-  font-family: "Work Sans", sans-serif;
-  font-size: 18px;
-}
-
-.testimonials .owl-carousel .owl-nav {
-  position: absolute;
-  top: -60%;
-  left: 45%;
-  margin-top: 0;
-}
-.testimonials .owl-carousel .owl-nav [class*=owl-]:hover {
-  background-color: #007bff;
-  color: white;
-}
-.testimonials .owl-carousel .owl-nav button.owl-next,
-.testimonials .owl-carousel .owl-nav button.owl-prev {
-  color: #007bff;
-  border-radius: 20px;
-}
-.testimonials .owl-carousel .owl-nav button.owl-next span,
-.testimonials .owl-carousel .owl-nav button.owl-prev span {
-  border-radius: 20px;
-  font-size: 50px;
-  display: block;
-  padding: 0px 20px;
-  border: 1px solid #efefef;
-}
-.testimonials .owl-theme .owl-dots {
-  position: absolute;
-  bottom: -30%;
-  right: 48%;
-}
-.testimonials .owl-theme .owl-dots .owl-dot.active span {
-  background-color: #007bff;
-}
-
-.title {
-  line-height: 35px;
-  text-align: center;
-}
-.title span {
-  color: #007bff;
-  font-size: 13px;
-  font-weight: 700;
-}
-.title h1 {
-  color: #000000;
-  font-size: 42px;
-  font-weight: 600;
-}
-
-.hightlight {
-  display: inline;
-  background: rgba(16, 123, 233, 0.07);
-}
-
-.section {
-  padding: 90px 0;
-}
-
-.list li {
-  line-height: 31px;
-  margin-bottom: 10px;
-}
-.list li i {
-  color: #007bff;
-  margin-right: 5px;
-}
-
-.pricing .pricing__content {
-  padding: 0 80px;
-}
-.pricing .pricing__content .pricing__card {
-  background-color: #ffffff;
-  border-radius: 40px;
-}
-.pricing .pricing__content .pricing__card .body {
-  padding: 50px 70px;
-}
-.pricing .pricing__content .pricing__card .body .pricing__price {
-  text-align: center;
-}
-.pricing .pricing__content .pricing__card .body .pricing__price .price .price {
-  position: relative;
-  color: #007bff;
-  font-size: default;
-  font-weight: default;
-}
-.pricing .pricing__content .pricing__card .body .pricing__price .price .price sup {
-  font-size: 20px;
-  top: -15px;
-  margin-right: -5px;
-}
-.pricing .pricing__content .pricing__card .body .pricing__price .price .price span {
-  font-size: 40px;
-}
-.pricing .pricing__content .pricing__card .body .pricing__price .price .price__sub {
-  color: #000000;
-  font-size: 30px;
-  font-weight: 600;
-}
-.pricing .pricing__content .pricing__card .body .pricing__get .pricing__active {
-  background-color: #107BE9;
-  color: #ffffff;
-}
-.pricing .pricing__content .pricing__card .body .pricing__get:hover a {
-  background-color: #007bff;
-  color: #ffffff;
-}
-.pricing .pricing__content .pricing__card .body .pricing__get a {
-  border-radius: 20px;
-  color: #007bff;
-  font-size: 12px;
-  font-weight: bold;
-  padding: 15px 30px;
-}
-
-#cardActive {
-  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
-}
-
-.testimonials .testimonials__item {
-  padding: 0 25px;
-}
-.testimonials .testimonials__item .author .author__pic {
-  flex-basis: 70px;
-}
-.testimonials .testimonials__item .author .author__pic img {
-  border-radius: 50%;
-}
-.testimonials .testimonials__item .author .author__desc strong {
-  font-weight: 400;
-}
-
-.company .company__content {
-  font-size: 17px;
-  line-height: 33px;
-}/*# sourceMappingURL=main.css.map */
+    body,
+    html {
+        font-family: "Work Sans", sans-serif;
+    }
+    
+    .testimonials .owl-carousel .owl-nav {
+        position: absolute;
+        top: -60%;
+        left: 45%;
+        margin-top: 0;
+    }
+    
+    .testimonials .owl-carousel .owl-nav [class*=owl-]:hover {
+        background-color: #007bff;
+        color: white;
+    }
+    
+    .testimonials .owl-carousel .owl-nav button.owl-next,
+    .testimonials .owl-carousel .owl-nav button.owl-prev {
+        color: #007bff;
+        border-radius: 2rem;
+    }
+    
+    .testimonials .owl-carousel .owl-nav button.owl-next span,
+    .testimonials .owl-carousel .owl-nav button. owl-prev span {
+        border-radius: 20px;
+        font-size: 50px;
+        display: block;
+        padding: 0px 20px;
+        border: 1px solid #efefef;
+    }
+    
+    .testimonials .owl-theme .owl-dots {
+        position: absolute;
+        bottom: -30%;
+        right: 48%;
+    }
+    
+    .testimonials .owl-theme .owl-dots .owl-dot.active span {
+        background-color: #007bff;
+    }
+    
+    .title {
+        line-height: 35px;
+        text-align: center;
+    }
+    
+    .title span {
+        color: #007bff;
+        font-size: 13px;
+        font-weight: 700;
+    }
+    
+    .title h1 {
+        color: #000000;
+        font-size: 42px;
+        font-weight: 600;
+    }
+    
+    .hightlight {
+        display: inline;
+        background: rgba(16, 123, 233, 0.07);
+    }
+    
+    .section {
+        padding: 90px 0;
+    }
+    
+    .list li {
+        line-height: 31px;
+        margin-bottom: 10px;
+    }
+    
+    .list li i {
+        color: #007bff;
+        margin-right: 5px;
+    }
+    
+    .pricing .pricing__content {
+        padding: 0 80px;
+    }
+    
+    .pricing .pricing__content .pricing__card {
+        background-color: #ffffff;
+        border-radius: 40px;
+    }
+    
+    .pricing .pricing__content .pricing__card .body {
+        padding: 50px 70px;
+    }
+    
+    .pricing .pricing__content .pricing__card .body .pricing__price {
+        text-align: center;
+    }
+    
+    .pricing .pricing__content .pricing__card .body .pricing__price .price .price {
+        position: relative;
+        color: #007bff;
+        font-size: default;
+        font-weight: default;
+    }
+    
+    .pricing .pricing__content .pricing__card .body .pricing__price .price .price sup {
+        font-size: 20px;
+        top: -15px;
+        margin-right: -5px;
+    }
+    
+    .pricing .pricing__content .pricing__card .body .pricing__price .price .price span {
+        font-size: 40px;
+    }
+    
+    .pricing .pricing__content .pricing__card .body .pricing__price .price .price__sub {
+        color: #000000;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    
+    .pricing .pricing__content .pricing__card .body .pricing__get .pricing__active {
+        background-color: #107BE9;
+        color: #ffffff;
+    }
+    
+    .pricing .pricing__content .pricing__card .body .pricing__get:hover a {
+        background-color: #007bff;
+        color: #ffffff;
+    }
+    
+    .pricing .pricing__content .pricing__card .body .pricing__get a {
+        border-radius: 20px;
+        color: #007bff;
+        font-size: 1.2rem;
+        font-weight: bold;
+        padding: 1.5rem 3rem;
+    }
+    
+    .pricing__list li {
+        font-size: 2rem;
+    }
+    
+    #cardActive {
+        box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
+    }
+    
+    .testimonials .testimonials__item {
+        padding: 0 25px;
+    }
+    
+    .testimonials .testimonials__item .author .author__pic {
+        flex-basis: 70px;
+    }
+    
+    .testimonials .testimonials__item .author .author__pic img {
+        border-radius: 50%;
+    }
+    
+    .testimonials .testimonials__item .author .author__desc strong {
+        font-weight: 400;
+    }
+    
+    .company .company__content {
+        font-size: 17px;
+        line-height: 33px;
+    }
+    /*# sourceMappingURL=main.css.map */
