@@ -1,6 +1,27 @@
-@import './Base/reset';
-
+// Base
+// @import './Base/reset';
+// Helper
 @import './Helpers/variables';
+@import './Helpers/mixin';
+
+@import './Base/customize';
+
+
+// Components
+@import './Components/title';
+@import './Components/section';
+@import './Components/list';
+
+// Layouts
+@import './Layouts/pricing';
+@import './Layouts/testimonials';
+@import './Layouts/company';
+// Pages
+
+
+// Themes
+
+// Vendors
 
 
 
