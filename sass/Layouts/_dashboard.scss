@@ -1,0 +1,42 @@
+.dashboard {
+    padding: 10rem 0;
+
+    .img-shadow {
+        border: 10px solid #ffffff;
+        box-shadow: 0 15px 100px -20px rgb(0 0 0 / 10%);
+        border-radius: 20px;
+        overflow: hidden;
+    }
+
+    .service-icon {
+        margin-right: 3rem;
+
+        i {
+            width: 4rem;
+            height: 4rem;
+            background-color: #6fe7dd;
+            font-size: 2rem;
+            text-align: center;
+            line-height: 4.5rem;
+            display: block;
+            color: white;
+            border-radius: 30%;
+        }
+    }
+
+    .service-contents {
+        .title {
+            font-family: "Work Sans", sans-serif;
+            color: #000000;
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .content {
+            color: #939393;
+            font-size: 1.6rem;
+            line-height: 1.6;
+        }
+    }
+}

@@ -1,0 +1,63 @@
+.advantage{
+    padding: 10rem 0;
+    .head{
+        .caption{
+            color: #107BE9;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            display: block;
+        }
+        .heading{
+            font-size: 4rem;
+            color: #000000;
+            margin-bottom: 1rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+        .content{
+            margin-top: 1.5rem;
+            font-size: 1.8rem;  
+            margin-bottom: 2rem;
+        }
+    }
+    .service{
+        padding: 15px;
+        .service-icon{
+            margin-right: 3rem;
+            i{
+                width: 4.5rem;
+                height: 4.5rem;
+                background-color: #6fe7dd;
+                font-size: 2.5rem;
+                text-align: center;
+                line-height: 4.5rem;
+                display: block;
+                color: white;
+                border-radius: 30%;
+            }
+        }
+        .service-content{
+            h3{
+                font-size: 2rem;
+                margin-bottom: 1rem;
+                font-weight: bold;
+            }
+            p{
+                font-size: 1.8rem;
+                line-height: 1.5;
+                margin-bottom: 1.5rem;
+            }
+            p:last-child{
+                font-size: 1.4rem;
+                color: #107BE9;
+                box-shadow: 1px 1px 2px 0px;
+                letter-spacing: 1px;
+                display: inline;
+                cursor: pointer;
+            }
+        }
+    }
+   
+}

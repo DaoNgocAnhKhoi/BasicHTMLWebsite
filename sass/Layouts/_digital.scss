@@ -1,0 +1,32 @@
+.digital{
+    padding: 10rem 0;
+    .caption{
+        color: #107BE9;
+        font-size: 1.3rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        display: inline-block;
+    }
+    .heading{
+        font-size: 3.8rem;
+        color: #000000;
+        font-weight: bold;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+    .wrap-icon-play{
+        top: 45%;
+        left: 50%;
+        width: 5rem;
+        height: 5rem;
+        background: #ffffff;
+        border-radius: 50%;
+    }
+    .bi-play{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1.5rem;
+    }
+}
