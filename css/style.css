@@ -194,44 +194,59 @@ html {
   top: 25%;
 }
 .home-title {
-  max-width: 35rem;
+  max-width: 50rem;
   margin: 0 auto;
   line-height: 1.2;
   font-size: 3.5rem;
-  font-weight: bold;
+  font-weight: bolder;
   padding: 5rem 0;
 }
+.home-title h2 {
+  line-height: 1;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 30px;
+  font-size: clamp(2rem, 2.5vw, 4rem);
+  font-family: "Work Sans", sans-serif;
+}
 .home-title .untree {
-  color: aqua;
+  color: #107BE9;
 }
 .home-content-welcome {
   color: #107BE9;
-  font-size: 1.4rem;
+  font-size: 13px;
   text-transform: uppercase;
-  letter-spacing: 1.5px;
-  font-weight: bold;
+  font-weight: 700;
+  display: inline-block;
+  font-family: "Work Sans", sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0;
 }
 .home-content-explore {
   padding: 1rem 0 1.5rem 0;
   font-size: 35px;
   font-weight: bold;
+  font-family: "Work Sans", sans-serif;
 }
 .home-content-far {
   line-height: 1.5;
-  font-size: 1.9rem;
+  font-size: 1.7rem;
   font-weight: 500;
   margin-bottom: 2rem;
   letter-spacing: 0.05rem;
 }
+.home-content-button {
+  font-family: "Work Sans", sans-serif;
+}
 .home-content-button .button-left {
+  font-size: 1.2rem;
   padding: 1.5rem 3rem;
   border-radius: 100rem;
   background: #107BE9;
   border-color: #107BE9;
   color: white;
-  font-size: 1rem;
-  font-weight: bold;
-  letter-spacing: 1.5px;
+  font-weight: 700;
+  letter-spacing: 0;
 }
 .home-content-button .button-right {
   padding: 1.5rem 3rem;
@@ -239,9 +254,9 @@ html {
   color: #107BE9;
   border-color: #107BE9;
   background-color: white;
-  font-size: 1rem;
-  font-weight: bold;
-  letter-spacing: 1.5px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0;
 }
 
 .advantage {
