@@ -7,16 +7,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
 <!-- Bootstrap CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
 
 <!-- Work sans - goolge font -->
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
 
 <!-- Font awesome  -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
-/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 <!-- OWL CAROUSEL  -->
 <link rel="stylesheet" href="./css/owl.carousel.min.css" />
@@ -31,7 +34,54 @@
 <body>
 
     <!-- NAVBAR -->
-    <nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Landing.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Testimonials</a></li>
+                            <li><a class="dropdown-item" href="#">Elements</a></li>
+                            <li><a class="dropdown-item" href="#">Menu two</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+            <ul class="form-sign">
+                <li>Sign in</li>
+                <li>Register</li>
+            </ul>
+            <div class="user-admin">
+                <a class="user" href="./admin.html"><i class="fa fa-user"></i></a>
+            </div>
+        </div>
+    </nav>
+    <!-- <nav>
         <div class="container">
             <div class="myNavbar">
                 <a href="index.html" class="myNavbar-landing col-2">Landing</a>
@@ -87,7 +137,7 @@
             </div>
         </div>
 
-    </nav>
+    </nav> -->
 
     <!-- HOME -->
     <section class="home ">
@@ -96,13 +146,16 @@
                 <img src="./images/dots.png" alt="">
             </div>
             <div class="home-title">
-                <h2 class="text-center">Free Bootstrap 4 Landing Page for SaaS Websites Edit by <span class="untree">Untree.demo</span></h2>
+                <h2 class="text-center">Free Bootstrap 4 Landing Page for SaaS Websites Edit by <span
+                        class="untree">Untree.demo</span></h2>
             </div>
             <div class="home-content d-flex">
                 <div class="home-content__left col-4">
                     <p class="home-content-welcome">WELCOME TO LANDING</p>
                     <h2 class="home-content-explore">Explore The Platform</h2>
-                    <p class="home-content-far">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast
+                    <p class="home-content-far">Far far away, behind the word mountains, far from the countries Vokalia
+                        and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the
+                        coast
                     </p>
                     <div class="home-content-button">
                         <button class="button-left me-4">SEE FEATURES</button>
@@ -135,7 +188,8 @@
                         </div>
                         <div class="service-content">
                             <h3>Built for Developers</h3>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.</p>
                             <p>Learn More</p>
                         </div>
                     </div>
@@ -147,7 +201,8 @@
                         </div>
                         <div class="service-content">
                             <h3>Modern Design</h3>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.</p>
                             <p>Learn More</p>
                         </div>
                     </div>
@@ -159,7 +214,8 @@
                         </div>
                         <div class="service-content">
                             <h3>Bring Ideas to Life</h3>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.</p>
                             <p>Learn More</p>
                         </div>
                     </div>
@@ -171,7 +227,8 @@
                         </div>
                         <div class="service-content">
                             <h3>Built for Developers</h3>
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.</p>
                             <p>Learn More</p>
                         </div>
                     </div>
@@ -191,7 +248,8 @@
                     <h3 class="heading">A complete solution for your business website</h3>
                     <div>
                         <p class="fs-3 lh-sm mb-4 text-secondary-emphasis
-                        ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                            there live the blind texts.</p>
                         <ul>
                             <li>
                                 <i class="fa fa-check text-primary-emphasis fs-3 p-3"></i>
@@ -230,7 +288,10 @@
                                 <span class="text-secondary-emphasis fs-4 pt-3 ">Facebook, Product Lead</span>
                             </div>
                         </div>
-                        <blockquote class="mb-3 fs-3 text-black lh-base fst-italic">“Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. ”</blockquote>
+                        <blockquote class="mb-3 fs-3 text-black lh-base fst-italic">“Separated they live in
+                            Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river
+                            named Duden flows by their place and supplies it with the necessary regelialia. ”
+                        </blockquote>
                     </div>
 
                 </div>
@@ -245,7 +306,10 @@
                                 <span class="text-secondary-emphasis fs-4 pt-3">Facebook, Product Lead</span>
                             </div>
                         </div>
-                        <blockquote class="mb-3 fs-3 text-black lh-base fst-italic">“Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. ”</blockquote>
+                        <blockquote class="mb-3 fs-3 text-black lh-base fst-italic">“Separated they live in
+                            Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river
+                            named Duden flows by their place and supplies it with the necessary regelialia. ”
+                        </blockquote>
                     </div>
 
                 </div>
@@ -267,7 +331,9 @@
                         </div>
                         <div class="service-contents">
                             <h3 class="title">Built for Developers</h3>
-                            <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis laboriosam voluptate distinctio rerum aspernatur recusandae deleniti ea animi dignissimos? Ab.</p>
+                            <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+                                laboriosam voluptate distinctio rerum aspernatur recusandae deleniti ea animi
+                                dignissimos? Ab.</p>
                         </div>
                     </a>
                     <a href="service" class="p-4 d-flex text-decoration-none mb-5">
@@ -276,7 +342,9 @@
                         </div>
                         <div class="service-contents">
                             <h3 class="title">Built for Developers</h3>
-                            <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis laboriosam voluptate distinctio rerum aspernatur recusandae deleniti ea animi dignissimos? Ab.</p>
+                            <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+                                laboriosam voluptate distinctio rerum aspernatur recusandae deleniti ea animi
+                                dignissimos? Ab.</p>
                         </div>
                     </a>
                     <a href="service" class="p-4 d-flex text-decoration-none mb-5">
@@ -285,7 +353,9 @@
                         </div>
                         <div class="service-contents">
                             <h3 class="title">Built for Developers</h3>
-                            <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis laboriosam voluptate distinctio rerum aspernatur recusandae deleniti ea animi dignissimos? Ab.</p>
+                            <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+                                laboriosam voluptate distinctio rerum aspernatur recusandae deleniti ea animi
+                                dignissimos? Ab.</p>
                         </div>
                     </a>
                 </div>
@@ -306,7 +376,8 @@
                     </div>
                     <div class="service-contents">
                         <h3 class="title">Built for Developers</h3>
-                        <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis laboriosam voluptate distinctio rerum aspernatur recusandae deleniti ea animi dignissimos?</p>
+                        <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis laboriosam
+                            voluptate distinctio rerum aspernatur recusandae deleniti ea animi dignissimos?</p>
                     </div>
                 </div>
                 <div class="col-3 px-5">
@@ -315,7 +386,8 @@
                     </div>
                     <div class="service-contents">
                         <h3 class="title">Built for Developers</h3>
-                        <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis laboriosam voluptate distinctio rerum aspernatur recusandae deleniti ea animi dignissimos?</p>
+                        <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis laboriosam
+                            voluptate distinctio rerum aspernatur recusandae deleniti ea animi dignissimos?</p>
                     </div>
                 </div>
                 <div class="col-3 px-5">
@@ -324,7 +396,8 @@
                     </div>
                     <div class="service-contents">
                         <h3 class="title">Built for Developers</h3>
-                        <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis laboriosam voluptate distinctio rerum aspernatur recusandae deleniti ea animi dignissimos?</p>
+                        <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis laboriosam
+                            voluptate distinctio rerum aspernatur recusandae deleniti ea animi dignissimos?</p>
                     </div>
                 </div>
                 <div class="col-3 px-5">
@@ -333,7 +406,8 @@
                     </div>
                     <div class="service-contents">
                         <h3 class="title">Built for Developers</h3>
-                        <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis laboriosam voluptate distinctio rerum aspernatur recusandae deleniti ea animi dignissimos?</p>
+                        <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis laboriosam
+                            voluptate distinctio rerum aspernatur recusandae deleniti ea animi dignissimos?</p>
                     </div>
                 </div>
             </div>
@@ -359,8 +433,8 @@
                             <div class="pricing__price">
                                 <div class="price">
                                     <span class="price">
-              <sup>$</sup>
-              <span>0</span>
+                                        <sup>$</sup>
+                                        <span>0</span>
                                     </span>
                                     <span class="price__sub d-block mb-4"> Free </span>
                                 </div>
@@ -388,8 +462,8 @@
                             <div class="pricing__price">
                                 <div class="price">
                                     <span class="price">
-              <sup>$</sup>
-              <span>19.99</span>
+                                        <sup>$</sup>
+                                        <span>19.99</span>
                                     </span>
                                     <span class="price__sub d-block mb-4"> Standard </span>
                                 </div>
@@ -406,38 +480,37 @@
                                 </li>
                             </ul>
                             <p class="pricing__get text-center m-0">
-                                <a class="btn btn-outline-primary pricing__active" href="#">GET STARTED</a
-          >
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="col-4">
-    <div class="pricing__card">
-      <div class="body">
-        <div class="pricing__price">
-          <div class="price">
-            <span class="price">
-              <sup>$</sup>
-              <span>79.99</span>
-            </span>
-            <span class="price__sub d-block mb-4">Premium </span>
-          </div>
-        </div>
-        <ul class="pricing__list list list-unstyled mb-5">
-          <li>
-            <i class="fa fa-check"></i> There live the blind texts
-          </li>
-          <li>
-            <i class="fa fa-check"></i> Far far away behind the word
-          </li>
-          <li>
-            <i class="fa fa-check"></i> Far from the countries Vokalia
-            and Consonantia
-          </li>
-        </ul>
-        <p class="pricing__get text-center m-0">
-          <a class="btn btn-outline-primary" href="#">GET STARTED</a>
+                                <a class="btn btn-outline-primary pricing__active" href="#">GET STARTED</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="pricing__card">
+                        <div class="body">
+                            <div class="pricing__price">
+                                <div class="price">
+                                    <span class="price">
+                                        <sup>$</sup>
+                                        <span>79.99</span>
+                                    </span>
+                                    <span class="price__sub d-block mb-4">Premium </span>
+                                </div>
+                            </div>
+                            <ul class="pricing__list list list-unstyled mb-5">
+                                <li>
+                                    <i class="fa fa-check"></i> There live the blind texts
+                                </li>
+                                <li>
+                                    <i class="fa fa-check"></i> Far far away behind the word
+                                </li>
+                                <li>
+                                    <i class="fa fa-check"></i> Far from the countries Vokalia
+                                    and Consonantia
+                                </li>
+                            </ul>
+                            <p class="pricing__get text-center m-0">
+                                <a class="btn btn-outline-primary" href="#">GET STARTED</a>
                             </p>
                         </div>
                     </div>
@@ -463,151 +536,141 @@
                                     <blockquote class="fst-italic">
                                         “Separated they
                                         <span class="hightlight">live in Bookmarksgrove right at the coast of the
-                Semantics</span
-              >
-              , a large language ocean. A small river named Duden flows
-              by their place and supplies it with the necessary
-              regelialia. ”
-            </blockquote>
-          </div>
-          <div class="author d-flex">
-            <div class="author__pic me-3">
-              <img
-                class="img-fluid"
-                src="./images/person_1.jpg"
-                alt="person 1"
-              />
-            </div>
-            <div class="author__desc">
-              <strong>Cameron Fisher</strong>
-              <p>Facebook, Product Lead</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="item">
-        <div class="testimonials__item">
-          <div class="text">
-            <blockquote class="fst-italic">
-              “Separated they
-              <span class="hightlight"
-                >live in Bookmarksgrove right at the coast of the
-                Semantics</span
-              >
-              , a large language ocean. A small river named Duden flows
-              by their place and supplies it with the necessary
-              regelialia. ”
-            </blockquote>
-          </div>
-          <div class="author d-flex">
-            <div class="author__pic me-3">
-              <img
-                class="img-fluid"
-                src="./images/person_1.jpg"
-                alt="person 1"
-              />
-            </div>
-            <div class="author__desc">
-              <strong>Cameron Fisher</strong>
-              <p>Facebook, Product Lead</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="item">
-        <div class="testimonials__item">
-          <div class="text">
-            <blockquote class="fst-italic">
-              “Separated they
-              <span class="hightlight"
-                >live in Bookmarksgrove right at the coast of the
-                Semantics</span
-              >
-              , a large language ocean. A small river named Duden flows
-              by their place and supplies it with the necessary
-              regelialia. ”
-            </blockquote>
-          </div>
-          <div class="author d-flex">
-            <div class="author__pic me-3">
-              <img
-                class="img-fluid"
-                src="./images/person_1.jpg"
-                alt="person 1"
-              />
-            </div>
-            <div class="author__desc">
-              <strong>Cameron Fisher</strong>
-              <p>Facebook, Product Lead</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-<!-- Company  -->
-<section class="company section">
-<div class="container">
-<div class="row">
-  <div class="col-8">
-    <img src="./images/undraw_getting_coffee_re_f2do.svg" alt="">
-  </div>
-  <div class="col-4">
-    <div class="title text-start">
-      <span>ABOUT</span>
-                                        <h1>The Company</h1>
+                                            Semantics</span>
+                                        , a large language ocean. A small river named Duden flows
+                                        by their place and supplies it with the necessary
+                                        regelialia. ”
+                                    </blockquote>
                                 </div>
-                                <div class="company__content">
-                                    <p class="mt-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast</pc>
-                                        <p class="mt-4">Separated they <span class="hightlight">live in Bookmarksgrove right at the coast of the Semantics</span>, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary
-                                            regelialia.
-                                        </p>
+                                <div class="author d-flex">
+                                    <div class="author__pic me-3">
+                                        <img class="img-fluid" src="./images/person_1.jpg" alt="person 1" />
+                                    </div>
+                                    <div class="author__desc">
+                                        <strong>Cameron Fisher</strong>
+                                        <p>Facebook, Product Lead</p>
+                                    </div>
                                 </div>
-                                <ul class="company__list list list-unstyled mb-5">
-                                    <li>
-                                        <i class="fa fa-check"></i> There live the blind texts
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-check"></i> Far far away behind the word
-                                    </li>
-                                    <li>
-                                        <i class="fa fa-check"></i> Far from the countries Vokalia and Consonantia
-                                    </li>
-                                </ul>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials__item">
+                                <div class="text">
+                                    <blockquote class="fst-italic">
+                                        “Separated they
+                                        <span class="hightlight">live in Bookmarksgrove right at the coast of the
+                                            Semantics</span>
+                                        , a large language ocean. A small river named Duden flows
+                                        by their place and supplies it with the necessary
+                                        regelialia. ”
+                                    </blockquote>
+                                </div>
+                                <div class="author d-flex">
+                                    <div class="author__pic me-3">
+                                        <img class="img-fluid" src="./images/person_1.jpg" alt="person 1" />
+                                    </div>
+                                    <div class="author__desc">
+                                        <strong>Cameron Fisher</strong>
+                                        <p>Facebook, Product Lead</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonials__item">
+                                <div class="text">
+                                    <blockquote class="fst-italic">
+                                        “Separated they
+                                        <span class="hightlight">live in Bookmarksgrove right at the coast of the
+                                            Semantics</span>
+                                        , a large language ocean. A small river named Duden flows
+                                        by their place and supplies it with the necessary
+                                        regelialia. ”
+                                    </blockquote>
+                                </div>
+                                <div class="author d-flex">
+                                    <div class="author__pic me-3">
+                                        <img class="img-fluid" src="./images/person_1.jpg" alt="person 1" />
+                                    </div>
+                                    <div class="author__desc">
+                                        <strong>Cameron Fisher</strong>
+                                        <p>Facebook, Product Lead</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Company  -->
+    <section class="company section">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <img src="./images/undraw_getting_coffee_re_f2do.svg" alt="">
+                </div>
+                <div class="col-4">
+                    <div class="title text-start">
+                        <span>ABOUT</span>
+                        <h1>The Company</h1>
+                    </div>
+                    <div class="company__content">
+                        <p class="mt-4">Far far away, behind the word mountains, far from the countries Vokalia and
+                            Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the
+                            coast</pc>
+                            <p class="mt-4">Separated they <span class="hightlight">live in Bookmarksgrove right at the
+                                    coast of the Semantics</span>, a large language ocean. A small river named Duden
+                                flows by their place and supplies it with the necessary
+                                regelialia.
+                            </p>
+                    </div>
+                    <ul class="company__list list list-unstyled mb-5">
+                        <li>
+                            <i class="fa fa-check"></i> There live the blind texts
+                        </li>
+                        <li>
+                            <i class="fa fa-check"></i> Far far away behind the word
+                        </li>
+                        <li>
+                            <i class="fa fa-check"></i> Far from the countries Vokalia and Consonantia
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                    <!-- JQUERY -->
-                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-                    <!-- BOOSTRAP 5 -->
-                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
-                    </script>
+    <!-- JQUERY -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- BOOSTRAP 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
 
-                    <!-- OWL carousel  -->
-                    <script src="./js/owl.carousel.min.js"></script>
-                    <script>
-                        $(".owl-carousel").owlCarousel({
-                            loop: true,
-                            margin: 10,
-                            nav: true,
-                            responsive: {
-                                0: {
-                                    items: 2,
-                                },
-                                600: {
-                                    items: 2,
-                                },
-                                1000: {
-                                    items: 2,
-                                },
-                            },
-                        });
-                    </script>
+    <!-- OWL carousel  -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+        $(".owl-carousel").owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 2,
+                },
+                600: {
+                    items: 2,
+                },
+                1000: {
+                    items: 2,
+                },
+            },
+        });
+    </script>
 </body>
 
 </html>
