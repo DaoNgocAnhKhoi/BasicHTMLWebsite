@@ -23,6 +23,7 @@
                         }
                         .price__sub {
                             @include styleTextBasic($color-black, $fs-5, $fw-600);
+                            margin: $mg-5 0;
                         }
     
                     }
@@ -43,10 +44,17 @@
                         border-radius: 20px;
                         @include styleTextBasic($color-blue-0, $fs-1 - 1, bold);
                         padding: 15px 30px;
+                        font-size: 1rem;
                     }
                 }
 
             }
+        }
+    }
+
+    .title {
+        p {
+            font-size: 1.7rem;
         }
     }
 }

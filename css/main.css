@@ -27,13 +27,9 @@ html {
   padding: 0px 20px;
   border: 1px solid #efefef;
 }
-.testimonials .owl-theme .owl-dots {
-  position: absolute;
-  bottom: -30%;
-  right: 48%;
-}
-.testimonials .owl-theme .owl-dots .owl-dot.active span {
-  background-color: #007bff;
+.testimonials .owl-theme .owl-dots .owl-dot span {
+  width: 9px;
+  height: 9px;
 }
 
 .title {
@@ -42,13 +38,17 @@ html {
 }
 .title span {
   color: #007bff;
-  font-size: 13px;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 .title h1 {
   color: #000000;
-  font-size: 42px;
+  font-size: 4rem;
   font-weight: 600;
+}
+
+.title-2 {
+  font-size: 1.8rem;
 }
 
 .hightlight {
@@ -57,20 +57,30 @@ html {
 }
 
 .section {
-  padding: 90px 0;
+  padding: 9rem 0;
 }
 
 .list li {
   line-height: 31px;
-  margin-bottom: 10px;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
 }
 .list li i {
   color: #007bff;
   margin-right: 5px;
 }
 
+.author {
+  padding: 10rem 0;
+}
+.author .person {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
 .pricing .pricing__content {
-  padding: 0 80px;
+  padding: 0 8rem;
 }
 .pricing .pricing__content .pricing__card {
   background-color: #ffffff;
@@ -89,17 +99,18 @@ html {
   font-weight: default;
 }
 .pricing .pricing__content .pricing__card .body .pricing__price .price .price sup {
-  font-size: 20px;
+  font-size: 2rem;
   top: -15px;
-  margin-right: -5px;
+  margin-right: -0.5rem;
 }
 .pricing .pricing__content .pricing__card .body .pricing__price .price .price span {
-  font-size: 40px;
+  font-size: 4rem;
 }
 .pricing .pricing__content .pricing__card .body .pricing__price .price .price__sub {
   color: #000000;
-  font-size: 30px;
+  font-size: 3rem;
   font-weight: 600;
+  margin: 2rem 0;
 }
 .pricing .pricing__content .pricing__card .body .pricing__get .pricing__active {
   background-color: #107BE9;
@@ -112,9 +123,13 @@ html {
 .pricing .pricing__content .pricing__card .body .pricing__get a {
   border-radius: 20px;
   color: #007bff;
-  font-size: 12px;
+  font-size: 0.5rem;
   font-weight: bold;
   padding: 15px 30px;
+  font-size: 1rem;
+}
+.pricing .title p {
+  font-size: 1.7rem;
 }
 
 #cardActive {
@@ -122,15 +137,15 @@ html {
 }
 
 .testimonials .testimonials__item {
-  padding: 0 25px;
+  padding: 0 3rem;
 }
-.testimonials .testimonials__item .author .author__pic {
+.testimonials .testimonials__item .author-2 .author__pic {
   flex-basis: 70px;
 }
-.testimonials .testimonials__item .author .author__pic img {
+.testimonials .testimonials__item .author-2 .author__pic img {
   border-radius: 50%;
 }
-.testimonials .testimonials__item .author .author__desc strong {
+.testimonials .testimonials__item .author-2 .author__desc strong {
   font-weight: 400;
 }
 
@@ -392,15 +407,6 @@ html {
   font-size: 1.5rem;
 }
 
-.author {
-  padding: 10rem 0;
-}
-.author .person {
-  width: 5rem;
-  height: 5rem;
-  border-radius: 50%;
-}
-
 .dashboard {
   padding: 10rem 0;
 }
@@ -476,6 +482,7 @@ html {
   color: #000000;
   font-size: 1.8rem;
   font-weight: 600;
+  text-align: start;
   margin-bottom: 1rem;
 }
 .features .service-contents .content {

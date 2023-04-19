@@ -2,12 +2,16 @@
     line-height: 35px;
     text-align: center;
     span {
-        @include styleTextBasic($color-blue-0, $fs-1, $fw-700);
+        @include styleTextBasic($color-blue-0,$fs-1, $fw-700);
     }
 
     h1 {
-        @include styleTextBasic($color-black, $fs-3 + 3, $fw-600);
+        @include styleTextBasic($color-black, $fs-3, $fw-600);
     }
+}
+
+.title-2 {
+    font-size: 1.8rem;
 }
 
 .hightlight {
