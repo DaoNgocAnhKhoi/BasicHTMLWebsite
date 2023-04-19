@@ -79,6 +79,23 @@ html {
   border-radius: 50%;
 }
 
+.button__blue.active a {
+  background-color: #107BE9;
+  color: #ffffff;
+}
+.button__blue:hover a {
+  background-color: #007bff;
+  color: #ffffff;
+}
+.button__blue a {
+  border-radius: 20px;
+  color: #007bff;
+  font-size: 0.5rem;
+  font-weight: bold;
+  padding: 15px 30px;
+  font-size: 1.3rem;
+}
+
 .pricing .pricing__content {
   padding: 0 8rem;
 }
@@ -111,22 +128,6 @@ html {
   font-size: 3rem;
   font-weight: 600;
   margin: 2rem 0;
-}
-.pricing .pricing__content .pricing__card .body .pricing__get .pricing__active {
-  background-color: #107BE9;
-  color: #ffffff;
-}
-.pricing .pricing__content .pricing__card .body .pricing__get:hover a {
-  background-color: #007bff;
-  color: #ffffff;
-}
-.pricing .pricing__content .pricing__card .body .pricing__get a {
-  border-radius: 20px;
-  color: #007bff;
-  font-size: 0.5rem;
-  font-weight: bold;
-  padding: 15px 30px;
-  font-size: 1rem;
 }
 .pricing .title p {
   font-size: 1.7rem;
@@ -573,4 +574,16 @@ html {
 .blog__item:hover {
   top: -10px;
   box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
+}
+
+.contact .form-group {
+  margin-bottom: 2rem;
+}
+.contact .form-group label {
+  font-size: 1.6rem;
+  color: #18233F;
+  margin-bottom: 1rem;
+}
+.contact .form-group input {
+  padding: 2rem 0;
 }/*# sourceMappingURL=main.css.map */
