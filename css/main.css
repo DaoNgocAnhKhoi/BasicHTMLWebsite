@@ -612,8 +612,50 @@ html {
 .contact .contact__right ul li a {
   text-decoration: none;
   color: #000000;
+  transition: all 0.3s ease;
 }
 .contact .contact__right ul li a i {
   font-size: 1.3rem;
   margin-right: 1rem;
+}
+.contact .contact__right ul li a:hover {
+  color: #007bff;
+}
+
+footer {
+  font-size: 1.4rem !important;
+  color: #888888;
+  line-height: 2rem;
+}
+footer .footer__title {
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+  color: #000000;
+}
+footer .footer__text {
+  margin-bottom: 3rem;
+}
+footer ul li {
+  margin-bottom: 1rem;
+}
+footer ul li a {
+  color: #888888;
+  text-decoration: none;
+}
+footer .social__group i {
+  font-size: 1.7rem;
+  background-color: #107BE9;
+  color: white;
+  padding: 1rem;
+  border-radius: 2rem;
+  transition: all 0.3s ease;
+}
+footer .social__group i:hover {
+  background-color: #0d62b9;
+}
+
+#vch, #ak {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
 }/*# sourceMappingURL=main.css.map */

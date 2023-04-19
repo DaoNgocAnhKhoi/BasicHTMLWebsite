@@ -38,9 +38,14 @@
                 a {
                     text-decoration: none;
                     color: $color-black;
+                    transition: all 0.3s ease;
                     i {
                         font-size: 1.3rem; 
                         margin-right: 1rem;
+                    }
+
+                    &:hover {
+                        color: $color-blue-0;       
                     }
                 }
             }

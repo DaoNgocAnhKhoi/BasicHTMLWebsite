@@ -1,0 +1,45 @@
+footer {
+    font-size: 1.4rem !important;
+    color: $color-gray-2;
+    line-height: 2rem;
+    .footer__title {
+        font-size: 1.6rem;
+        margin-bottom: 3rem;
+        color: $color-black;
+    }
+
+    .footer__text {
+        margin-bottom: 3rem;
+    }
+
+    ul {
+        li {
+            margin-bottom: 1rem;
+            a{
+                color: $color-gray-2;
+                text-decoration: none;
+
+            }
+        }
+    }
+
+    .social__group {
+        i{
+            font-size: 1.7rem;
+            background-color: $color-blue-1;
+            color: white;
+            padding: 1rem;
+            border-radius: 2rem;
+            transition: all 0.3s ease;
+            &:hover {
+                background-color: $color-dark-blue;
+            }
+        }
+    }
+}
+
+#vch, #ak {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
