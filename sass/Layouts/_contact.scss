@@ -12,4 +12,39 @@
         }
     }
 
+    .contact__right {
+        padding: 3rem;
+        background-color: $color-gray-1;
+        font-size: 1.6rem;
+        border-radius: 2rem;
+        box-shadow: 2rem 2rem 0 0 #107be9;
+        h1 {
+            font-size: 2rem;
+            font-weight: 500;
+            margin-bottom: 4rem;
+        }
+
+        div {
+            margin-bottom: 3rem;
+            i {
+                font-size: 1.3rem; 
+                margin-right: 1rem;
+            }
+        }
+
+        ul {
+            li{
+                margin-bottom: 3rem;
+                a {
+                    text-decoration: none;
+                    color: $color-black;
+                    i {
+                        font-size: 1.3rem; 
+                        margin-right: 1rem;
+                    }
+                }
+            }
+        }
+    }
+
 }

@@ -586,4 +586,34 @@ html {
 }
 .contact .form-group input {
   padding: 2rem 0;
+}
+.contact .contact__right {
+  padding: 3rem;
+  background-color: #fafafa;
+  font-size: 1.6rem;
+  border-radius: 2rem;
+  box-shadow: 2rem 2rem 0 0 #107be9;
+}
+.contact .contact__right h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+.contact .contact__right div {
+  margin-bottom: 3rem;
+}
+.contact .contact__right div i {
+  font-size: 1.3rem;
+  margin-right: 1rem;
+}
+.contact .contact__right ul li {
+  margin-bottom: 3rem;
+}
+.contact .contact__right ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+.contact .contact__right ul li a i {
+  font-size: 1.3rem;
+  margin-right: 1rem;
 }/*# sourceMappingURL=main.css.map */
