@@ -150,8 +150,19 @@ html {
 }
 
 .company .company__content {
-  font-size: 17px;
-  line-height: 33px;
+  font-size: 1.7rem;
+  line-height: 3.3rem;
+}
+.company__numbers__item span {
+  margin-right: 10rem;
+}
+.company__numbers__item__title {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+}
+.company__numbers__item__text {
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .myNavbar {
@@ -488,4 +499,19 @@ html {
 .features .service-contents .content {
   font-size: 1.6rem;
   line-height: 1.6;
+}
+
+.teams .title {
+  margin-bottom: 10rem;
+}
+.teams__member {
+  padding: 0 1rem;
+}
+.teams__member h1 {
+  font-size: 2.5rem;
+  margin: 1.5rem 0;
+}
+.teams__member p {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }/*# sourceMappingURL=main.css.map */
