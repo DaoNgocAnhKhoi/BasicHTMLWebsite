@@ -1,397 +1,445 @@
-.myNavbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 25px 0;
-    z-index: 20;
+body,
+html {
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
 }
 
-.myNavbar a {
-    text-decoration: none;
+.testimonials .owl-carousel .owl-nav {
+  position: absolute;
+  top: -60%;
+  left: 45%;
+  margin-top: 0;
+}
+.testimonials .owl-carousel .owl-nav [class*=owl-]:hover {
+  background-color: #007bff;
+  color: white;
+}
+.testimonials .owl-carousel .owl-nav button.owl-next,
+.testimonials .owl-carousel .owl-nav button.owl-prev {
+  color: #007bff;
+  border-radius: 20px;
+}
+.testimonials .owl-carousel .owl-nav button.owl-next span,
+.testimonials .owl-carousel .owl-nav button.owl-prev span {
+  border-radius: 20px;
+  font-size: 50px;
+  display: block;
+  padding: 0px 20px;
+  border: 1px solid #efefef;
+}
+.testimonials .owl-theme .owl-dots {
+  position: absolute;
+  bottom: -30%;
+  right: 48%;
+}
+.testimonials .owl-theme .owl-dots .owl-dot.active span {
+  background-color: #007bff;
 }
 
-.myNavbar-landing {
-    color: #000000;
-    font-size: 24px;
-    font-weight: bold;
+.title {
+  line-height: 35px;
+  text-align: center;
+}
+.title span {
+  color: #007bff;
+  font-size: 13px;
+  font-weight: 700;
+}
+.title h1 {
+  color: #000000;
+  font-size: 42px;
+  font-weight: 600;
 }
 
-.myNavbar-list {
-    display: flex;
+.hightlight {
+  display: inline;
+  background: rgba(16, 123, 233, 0.07);
 }
 
-.myNavbar-list .myNavbar-link {
-    color: #000000;
-    padding: 10px 15px;
-    font-size: 14px;
-    font-weight: 500;
-    text-align: center;
+.section {
+  padding: 90px 0;
 }
 
-.myNavbar-list .dropdown {
-    opacity: 0;
-    visibility: hidden;
-    position: absolute;
-    z-index: 20;
-    padding: 15px 0px;
-    width: 125px;
+.list li {
+  line-height: 31px;
+  margin-bottom: 10px;
+}
+.list li i {
+  color: #007bff;
+  margin-right: 5px;
 }
 
-.myNavbar-list .dropdown .myNavbar-link {
-    padding: 0 10px;
+.pricing .pricing__content {
+  padding: 0 80px;
+}
+.pricing .pricing__content .pricing__card {
+  background-color: #ffffff;
+  border-radius: 40px;
+}
+.pricing .pricing__content .pricing__card .body {
+  padding: 50px 70px;
+}
+.pricing .pricing__content .pricing__card .body .pricing__price {
+  text-align: center;
+}
+.pricing .pricing__content .pricing__card .body .pricing__price .price .price {
+  position: relative;
+  color: #007bff;
+  font-size: default;
+  font-weight: default;
+}
+.pricing .pricing__content .pricing__card .body .pricing__price .price .price sup {
+  font-size: 20px;
+  top: -15px;
+  margin-right: -5px;
+}
+.pricing .pricing__content .pricing__card .body .pricing__price .price .price span {
+  font-size: 40px;
+}
+.pricing .pricing__content .pricing__card .body .pricing__price .price .price__sub {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 600;
+}
+.pricing .pricing__content .pricing__card .body .pricing__get .pricing__active {
+  background-color: #107BE9;
+  color: #ffffff;
+}
+.pricing .pricing__content .pricing__card .body .pricing__get:hover a {
+  background-color: #007bff;
+  color: #ffffff;
+}
+.pricing .pricing__content .pricing__card .body .pricing__get a {
+  border-radius: 20px;
+  color: #007bff;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 15px 30px;
 }
 
-.myNavbar-list .dropdown .has-children {
-    position: relative;
+#cardActive {
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
 }
 
-.myNavbar-list .dropdown .has-children:hover .dropdown-sub {
-    opacity: 1;
-    visibility: visible;
+.testimonials .testimonials__item {
+  padding: 0 25px;
+}
+.testimonials .testimonials__item .author .author__pic {
+  flex-basis: 70px;
+}
+.testimonials .testimonials__item .author .author__pic img {
+  border-radius: 50%;
+}
+.testimonials .testimonials__item .author .author__desc strong {
+  font-weight: 400;
 }
 
-.myNavbar-list .dropdown .has-children .dropdown-sub {
-    opacity: 0;
-    visibility: hidden;
-    width: 140px;
-    position: absolute;
-    left: 100%;
-    border: 3px solid whitesmoke;
-    transition: all 0.2s linear;
-    z-index: 20;
+.company .company__content {
+  font-size: 17px;
+  line-height: 33px;
 }
 
-.myNavbar-list .dropdown .has-children .dropdown-sub .myNavbar-link {
-    padding: 15px;
-    font-size: bold;
+.navbar {
+  margin-top: 2rem;
 }
-
-.myNavbar-item.has-children {
-    position: relative;
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: black;
+  margin-right: 3rem;
 }
-
-.myNavbar-item.has-children .dropdown {
-    transition: all 0.2s linear;
-    border: 3px solid whitesmoke;
+.navbar .navbar-collapse .navbar-nav .nav-item a {
+  color: black;
+  font-size: 1.6rem;
+  padding: 0 1.5rem;
+  font-weight: 500;
 }
-
-.myNavbar-item.has-children .dropdown li {
-    padding: 10px 0;
+.navbar .navbar-collapse .navbar-nav .dropdown-menu .dropdown-item {
+  padding: 1.5rem;
 }
-
-.myNavbar-item.has-children:hover .dropdown {
-    opacity: 1;
-    visibility: visible;
+.navbar .form-sign {
+  display: flex;
+  gap: 2rem;
 }
-
-.myNavbar .sign {
-    padding: 8px 22px;
-    border: 1px solid #000000;
-    border-radius: 100rem;
-    font-weight: bold;
-    font-size: 16px;
-    letter-spacing: 1.5px;
+.navbar .form-sign li {
+  cursor: pointer;
+  font-size: 1.6rem;
+  padding: 1rem 2rem;
+  border: 1px solid black;
+  border-radius: 1.8rem;
 }
-
-.myNavbar .register {
-    font-size: 16px;
-    color: white;
-    background-color: #107BE9;
-    padding: 8px 22px;
-    border-radius: 100rem;
-    font-weight: bold;
-    letter-spacing: 1.5px;
+.navbar .form-sign li:last-child {
+  background-color: #0d6efd;
+  color: white;
 }
-
-.myNavbar .user {
-    color: cadetblue;
-    cursor: pointer;
-    font-size: 20px;
-    width: 40px;
-    height: 40px;
-    background-color: antiquewhite;
-    border-radius: 100rem;
-    display: block;
-    text-align: center;
-    line-height: 35px;
+.navbar .user-admin {
+  margin-left: 2rem;
+}
+.navbar .user-admin a {
+  font-size: 1.6rem;
+  padding: 1.3rem;
+  color: black;
+  border-radius: 100%;
+  background-color: #6F5CF1;
+  cursor: pointer;
 }
 
 .home {
-    padding-top: 5rem;
-    padding-bottom: 10rem;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
 }
-
 .home .dots {
-    position: absolute;
-    right: 0;
-    top: 25%;
+  position: absolute;
+  right: 0;
+  top: 25%;
 }
-
 .home-title {
-    max-width: 35rem;
-    margin: 0 auto;
-    line-height: 1.2;
-    font-size: 3.5rem;
-    font-weight: bold;
-    padding: 5rem 0;
+  max-width: 50rem;
+  margin: 0 auto;
+  line-height: 1.2;
+  font-size: 3.5rem;
+  font-weight: bolder;
+  padding: 5rem 0;
 }
-
+.home-title h2 {
+  line-height: 1;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 30px;
+  font-size: clamp(2rem, 2.5vw, 4rem);
+  font-family: "Work Sans", sans-serif;
+}
 .home-title .untree {
-    color: aqua;
+  color: #107BE9;
 }
-
 .home-content-welcome {
-    color: #107BE9;
-    font-size: 1.4rem;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    font-weight: bold;
+  color: #107BE9;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  font-family: "Work Sans", sans-serif;
+  line-height: 1.6;
+  letter-spacing: 0;
 }
-
 .home-content-explore {
-    padding: 1rem 0 1.5rem 0;
-    font-size: 35px;
-    font-weight: bold;
+  padding: 1rem 0 1.5rem 0;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: "Work Sans", sans-serif;
 }
-
 .home-content-far {
-    line-height: 1.5;
-    font-size: 1.9rem;
-    font-weight: 500;
-    margin-bottom: 2rem;
-    letter-spacing: 0.05rem;
+  line-height: 1.5;
+  font-size: 1.7rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  letter-spacing: 0.05rem;
 }
-
+.home-content-button {
+  font-family: "Work Sans", sans-serif;
+}
 .home-content-button .button-left {
-    padding: 1.5rem 3rem;
-    border-radius: 100rem;
-    background: #107BE9;
-    border-color: #107BE9;
-    color: white;
-    font-size: 1rem;
-    font-weight: bold;
-    letter-spacing: 1.5px;
+  font-size: 1.2rem;
+  padding: 1.5rem 3rem;
+  border-radius: 100rem;
+  background: #107BE9;
+  border-color: #107BE9;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 0;
 }
-
 .home-content-button .button-right {
-    padding: 1.5rem 3rem;
-    border-radius: 100rem;
-    color: #107BE9;
-    border-color: #107BE9;
-    background-color: white;
-    font-size: 1rem;
-    font-weight: bold;
-    letter-spacing: 1.5px;
+  padding: 1.5rem 3rem;
+  border-radius: 100rem;
+  color: #107BE9;
+  border-color: #107BE9;
+  background-color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0;
 }
 
 .advantage {
-    padding: 10rem 0;
+  padding: 10rem 0;
 }
-
 .advantage .head .caption {
-    color: #107BE9;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    font-weight: bold;
-    margin-bottom: 1rem;
-    display: block;
+  color: #107BE9;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  display: block;
 }
-
 .advantage .head .heading {
-    font-size: 4rem;
-    color: #000000;
-    margin-bottom: 1rem;
-    font-weight: bold;
-    letter-spacing: 1px;
+  font-size: 4rem;
+  color: #000000;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
-
 .advantage .head .content {
-    margin-top: 1.5rem;
-    font-size: 1.8rem;
-    margin-bottom: 2rem;
+  margin-top: 1.5rem;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
 }
-
 .advantage .service {
-    padding: 15px;
+  padding: 15px;
 }
-
 .advantage .service .service-icon {
-    margin-right: 3rem;
+  margin-right: 3rem;
 }
-
 .advantage .service .service-icon i {
-    width: 4.5rem;
-    height: 4.5rem;
-    background-color: #6fe7dd;
-    font-size: 2.5rem;
-    text-align: center;
-    line-height: 4.5rem;
-    display: block;
-    color: white;
-    border-radius: 30%;
+  width: 4.5rem;
+  height: 4.5rem;
+  background-color: #6fe7dd;
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 4.5rem;
+  display: block;
+  color: white;
+  border-radius: 30%;
 }
-
 .advantage .service .service-content h3 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
 }
-
 .advantage .service .service-content p {
-    font-size: 1.8rem;
-    line-height: 1.5;
-    margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
 }
-
 .advantage .service .service-content p:last-child {
-    font-size: 1.4rem;
-    color: #107BE9;
-    box-shadow: 1px 1px 2px 0px;
-    letter-spacing: 1px;
-    display: inline;
-    cursor: pointer;
+  font-size: 1.4rem;
+  color: #107BE9;
+  box-shadow: 1px 1px 2px 0px;
+  letter-spacing: 1px;
+  display: inline;
+  cursor: pointer;
 }
 
 .digital {
-    padding: 10rem 0;
+  padding: 10rem 0;
 }
-
 .digital .caption {
-    color: #107BE9;
-    font-size: 1.3rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    display: inline-block;
+  color: #107BE9;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
 }
-
 .digital .heading {
-    font-size: 3.8rem;
-    color: #000000;
-    font-weight: bold;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
+  font-size: 3.8rem;
+  color: #000000;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
-
 .digital .wrap-icon-play {
-    top: 45%;
-    left: 50%;
-    width: 5rem;
-    height: 5rem;
-    background: #ffffff;
-    border-radius: 50%;
+  top: 45%;
+  left: 50%;
+  width: 5rem;
+  height: 5rem;
+  background: #ffffff;
+  border-radius: 50%;
 }
-
 .digital .bi-play {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 1.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
 }
 
 .author {
-    padding: 10rem 0;
+  padding: 10rem 0;
 }
-
 .author .person {
-    width: 5rem;
-    height: 5rem;
-    border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
 }
 
 .dashboard {
-    padding: 10rem 0;
+  padding: 10rem 0;
 }
-
 .dashboard .img-shadow {
-    border: 10px solid #ffffff;
-    box-shadow: 0 15px 100px -20px rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
-    overflow: hidden;
+  border: 10px solid #ffffff;
+  box-shadow: 0 15px 100px -20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  overflow: hidden;
 }
-
 .dashboard .service-icon {
-    margin-right: 3rem;
+  margin-right: 3rem;
 }
-
 .dashboard .service-icon i {
-    width: 4rem;
-    height: 4rem;
-    background-color: #6fe7dd;
-    font-size: 2rem;
-    text-align: center;
-    line-height: 4.5rem;
-    display: block;
-    color: white;
-    border-radius: 30%;
+  width: 4rem;
+  height: 4rem;
+  background-color: #6fe7dd;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 4.5rem;
+  display: block;
+  color: white;
+  border-radius: 30%;
 }
-
 .dashboard .service-contents .title {
-    font-family: "Work Sans", sans-serif;
-    color: #000000;
-    font-size: 1.8rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
+  font-family: "Work Sans", sans-serif;
+  color: #000000;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
-
 .dashboard .service-contents .content {
-    color: #939393;
-    font-size: 1.6rem;
-    line-height: 1.6;
+  color: #939393;
+  font-size: 1.6rem;
+  line-height: 1.6;
 }
 
 .features {
-    padding: 10rem 0;
+  padding: 10rem 0;
 }
-
 .features .title-Top {
-    margin-bottom: 5rem;
+  margin-bottom: 5rem;
 }
-
 .features .caption {
-    color: #107BE9;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    font-weight: 700;
-    display: inline-block;
-    font-family: "Work Sans", sans-serif;
+  color: #107BE9;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: inline-block;
+  font-family: "Work Sans", sans-serif;
 }
-
 .features .heading {
-    font-size: 3.8rem;
-    color: #000000;
-    font-weight: 600;
-    font-family: "Work Sans", sans-serif;
+  font-size: 3.8rem;
+  color: #000000;
+  font-weight: 600;
+  font-family: "Work Sans", sans-serif;
 }
-
 .features .service-icon {
-    margin-right: 3rem;
+  margin-right: 3rem;
 }
-
 .features .service-icon i {
-    width: 4.5rem;
-    height: 4.5rem;
-    background-color: #6fe7dd;
-    font-size: 2rem;
-    text-align: center;
-    line-height: 4.5rem;
-    display: block;
-    color: white;
-    border-radius: 30%;
+  width: 4.5rem;
+  height: 4.5rem;
+  background-color: #6fe7dd;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 4.5rem;
+  display: block;
+  color: white;
+  border-radius: 30%;
 }
-
 .features .service-contents .title {
-    font-family: "Work Sans", sans-serif;
-    color: #000000;
-    font-size: 1.8rem;
-    font-weight: 600;
-    margin-bottom: 1rem;
+  font-family: "Work Sans", sans-serif;
+  color: #000000;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
 }
-
 .features .service-contents .content {
-    font-size: 1.6rem;
-    line-height: 1.6;
+  font-size: 1.6rem;
+  line-height: 1.6;
 }
-
 
 /*# sourceMappingURL=style.css.map */
