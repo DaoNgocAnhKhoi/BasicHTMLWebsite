@@ -1,35 +1,32 @@
-// Base
-// @import './Base/reset';
 // Helper
 @import './Helpers/variables';
 @import './Helpers/mixin';
 
+// Base
 @import './Base/customize';
+
 
 
 // Components
 @import './Components/title';
 @import './Components/section';
 @import './Components/list';
+@import './Components/author';
+@import './Components/button';
 
 // Layouts
 @import './Layouts/pricing';
 @import './Layouts/testimonials';
 @import './Layouts/company';
-// Pages
-
-
-// Themes
-
-// Vendors
-
-
-
-// Layouts
 @import './Layouts/navbar';
 @import './Layouts/home';
 @import './Layouts/advantage';
 @import './Layouts/digital';
-@import './Layouts/author';
 @import './Layouts/dashboard';
 @import './Layouts/features';
+@import './Layouts/teams';
+@import './Layouts/blog';
+@import './Layouts/contact';
+@import './Layouts/footer';
+// Themes
+// Vendors

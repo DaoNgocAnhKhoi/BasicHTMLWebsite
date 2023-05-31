@@ -1,0 +1,22 @@
+.button__blue {
+    &.active {
+        a {
+            background-color: $color-blue-1;
+        color: $color-white;
+        }
+        
+    }
+    &:hover {
+        a {
+            background-color: $color-blue-0;
+            color: $color-white;
+        }
+        
+    }
+    a {
+        border-radius: 20px;
+        @include styleTextBasic($color-blue-0, $fs-1 - 1, bold);
+        padding: 15px 30px;
+        font-size: 1.3rem;
+    }
+}

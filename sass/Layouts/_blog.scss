@@ -1,0 +1,76 @@
+.blog {
+    &__item {
+        position: relative;
+        background-color: white;
+        padding: 3rem;
+        transition: .2s all ease;
+        overflow: hidden;
+        // visibility: hidden;
+        &__title {
+            margin-bottom: 2rem;
+            display: flex;
+           span:first-child {
+            width: 20%;
+            margin-right: 2rem;
+           } 
+
+           span:last-child {
+            h5,p {
+                font-size: 1.7rem;
+            }
+
+            h5 {
+                font-weight: bold;
+                margin-bottom: 0.5rem;
+            }
+           }
+        }
+
+        &__text {
+            p:first-child {
+                font-size: 1.8rem;
+                font-weight: 500;
+                margin-bottom: 2rem;
+            }
+
+            p:last-child {
+                font-size: 1.6rem;
+                line-height: 3rem;
+                margin-bottom: 2rem;
+            }
+        }
+
+        &__details {
+            font-size: 1.3rem;
+            color: $color-gray-light;
+            margin-bottom: 4rem;
+        }
+
+        &__arrow {
+            width: 25px;
+            height: 25px;
+            transition: all 0.5s ease;
+            cursor: pointer;
+            i {
+                font-size: 2.5rem;
+                opacity: 1;
+            }
+
+            &:hover {
+                i{
+                    transform: translateX(20px);
+                    opacity: 1;
+                }
+                background-color: #107BE9;
+            }
+        }
+
+        &:hover {
+            top: -10px;
+            box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
+
+        }
+    }
+
+    
+}

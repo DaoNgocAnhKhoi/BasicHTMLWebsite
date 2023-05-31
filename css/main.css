@@ -27,28 +27,28 @@ html {
   padding: 0px 20px;
   border: 1px solid #efefef;
 }
-.testimonials .owl-theme .owl-dots {
-  position: absolute;
-  bottom: -30%;
-  right: 48%;
-}
-.testimonials .owl-theme .owl-dots .owl-dot.active span {
-  background-color: #007bff;
+.testimonials .owl-theme .owl-dots .owl-dot span {
+  width: 9px;
+  height: 9px;
 }
 
 .title {
   line-height: 35px;
   text-align: center;
+  margin-bottom: 4.8rem;
 }
 .title span {
   color: #007bff;
-  font-size: 13px;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 .title h1 {
   color: #000000;
-  font-size: 42px;
+  font-size: 4rem;
   font-weight: 600;
+}
+.title p {
+  font-size: 1.7rem;
 }
 
 .hightlight {
@@ -57,20 +57,47 @@ html {
 }
 
 .section {
-  padding: 90px 0;
+  padding: 9rem 0;
 }
 
 .list li {
   line-height: 31px;
-  margin-bottom: 10px;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
 }
 .list li i {
   color: #007bff;
   margin-right: 5px;
 }
 
+.author {
+  padding: 10rem 0;
+}
+.author .person {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+.button__blue.active a {
+  background-color: #107BE9;
+  color: #ffffff;
+}
+.button__blue:hover a {
+  background-color: #007bff;
+  color: #ffffff;
+}
+.button__blue a {
+  border-radius: 20px;
+  color: #007bff;
+  font-size: 0.5rem;
+  font-weight: bold;
+  padding: 15px 30px;
+  font-size: 1.3rem;
+}
+
 .pricing .pricing__content {
-  padding: 0 80px;
+  padding: 0 8rem;
 }
 .pricing .pricing__content .pricing__card {
   background-color: #ffffff;
@@ -89,32 +116,21 @@ html {
   font-weight: default;
 }
 .pricing .pricing__content .pricing__card .body .pricing__price .price .price sup {
-  font-size: 20px;
+  font-size: 2rem;
   top: -15px;
-  margin-right: -5px;
+  margin-right: -0.5rem;
 }
 .pricing .pricing__content .pricing__card .body .pricing__price .price .price span {
-  font-size: 40px;
+  font-size: 4rem;
 }
 .pricing .pricing__content .pricing__card .body .pricing__price .price .price__sub {
   color: #000000;
-  font-size: 30px;
+  font-size: 3rem;
   font-weight: 600;
+  margin: 2rem 0;
 }
-.pricing .pricing__content .pricing__card .body .pricing__get .pricing__active {
-  background-color: #107BE9;
-  color: #ffffff;
-}
-.pricing .pricing__content .pricing__card .body .pricing__get:hover a {
-  background-color: #007bff;
-  color: #ffffff;
-}
-.pricing .pricing__content .pricing__card .body .pricing__get a {
-  border-radius: 20px;
-  color: #007bff;
-  font-size: 12px;
-  font-weight: bold;
-  padding: 15px 30px;
+.pricing .title p {
+  font-size: 1.7rem;
 }
 
 #cardActive {
@@ -122,21 +138,32 @@ html {
 }
 
 .testimonials .testimonials__item {
-  padding: 0 25px;
+  padding: 0 3rem;
 }
-.testimonials .testimonials__item .author .author__pic {
+.testimonials .testimonials__item .author-2 .author__pic {
   flex-basis: 70px;
 }
-.testimonials .testimonials__item .author .author__pic img {
+.testimonials .testimonials__item .author-2 .author__pic img {
   border-radius: 50%;
 }
-.testimonials .testimonials__item .author .author__desc strong {
+.testimonials .testimonials__item .author-2 .author__desc strong {
   font-weight: 400;
 }
 
 .company .company__content {
-  font-size: 17px;
-  line-height: 33px;
+  font-size: 1.7rem;
+  line-height: 3.3rem;
+}
+.company__numbers__item span {
+  margin-right: 10rem;
+}
+.company__numbers__item__title {
+  font-size: 4rem;
+  margin-bottom: 4.8rem;
+}
+.company__numbers__item__text {
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .myNavbar {
@@ -392,15 +419,6 @@ html {
   font-size: 1.5rem;
 }
 
-.author {
-  padding: 10rem 0;
-}
-.author .person {
-  width: 5rem;
-  height: 5rem;
-  border-radius: 50%;
-}
-
 .dashboard {
   padding: 10rem 0;
 }
@@ -476,9 +494,168 @@ html {
   color: #000000;
   font-size: 1.8rem;
   font-weight: 600;
+  text-align: start;
   margin-bottom: 1rem;
 }
 .features .service-contents .content {
   font-size: 1.6rem;
   line-height: 1.6;
+}
+
+.teams .title {
+  margin-bottom: 7rem;
+}
+.teams__member {
+  padding: 0 1rem;
+}
+.teams__member h1 {
+  font-size: 2.5rem;
+  margin: 1.5rem 0;
+}
+.teams__member p {
+  font-size: 1.6rem;
+  line-height: 2.7rem;
+}
+
+.blog__item {
+  position: relative;
+  background-color: white;
+  padding: 3rem;
+  transition: 0.2s all ease;
+  overflow: hidden;
+}
+.blog__item__title {
+  margin-bottom: 2rem;
+  display: flex;
+}
+.blog__item__title span:first-child {
+  width: 20%;
+  margin-right: 2rem;
+}
+.blog__item__title span:last-child h5, .blog__item__title span:last-child p {
+  font-size: 1.7rem;
+}
+.blog__item__title span:last-child h5 {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.blog__item__text p:first-child {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.blog__item__text p:last-child {
+  font-size: 1.6rem;
+  line-height: 3rem;
+  margin-bottom: 2rem;
+}
+.blog__item__details {
+  font-size: 1.3rem;
+  color: #ADADAD;
+  margin-bottom: 4rem;
+}
+.blog__item__arrow {
+  width: 25px;
+  height: 25px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.blog__item__arrow i {
+  font-size: 2.5rem;
+  opacity: 1;
+}
+.blog__item__arrow:hover {
+  background-color: #107BE9;
+}
+.blog__item__arrow:hover i {
+  transform: translateX(20px);
+  opacity: 1;
+}
+.blog__item:hover {
+  top: -10px;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
+}
+
+.contact .form-group {
+  margin-bottom: 2rem;
+}
+.contact .form-group label {
+  font-size: 1.6rem;
+  color: #18233F;
+  margin-bottom: 1rem;
+}
+.contact .form-group input {
+  padding: 2rem 0;
+}
+.contact .contact__right {
+  padding: 3rem;
+  background-color: #fafafa;
+  font-size: 1.6rem;
+  border-radius: 2rem;
+  box-shadow: 2rem 2rem 0 0 #107be9;
+}
+.contact .contact__right h1 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 4rem;
+}
+.contact .contact__right div {
+  margin-bottom: 3rem;
+}
+.contact .contact__right div i {
+  font-size: 1.3rem;
+  margin-right: 1rem;
+}
+.contact .contact__right ul li {
+  margin-bottom: 3rem;
+}
+.contact .contact__right ul li a {
+  text-decoration: none;
+  color: #000000;
+  transition: all 0.3s ease;
+}
+.contact .contact__right ul li a i {
+  font-size: 1.3rem;
+  margin-right: 1rem;
+}
+.contact .contact__right ul li a:hover {
+  color: #007bff;
+}
+
+footer {
+  font-size: 1.4rem !important;
+  color: #888888;
+  line-height: 2rem;
+}
+footer .footer__title {
+  font-size: 1.6rem;
+  margin-bottom: 3rem;
+  color: #000000;
+}
+footer .footer__text {
+  margin-bottom: 3rem;
+}
+footer ul li {
+  margin-bottom: 1rem;
+}
+footer ul li a {
+  color: #888888;
+  text-decoration: none;
+}
+footer .social__group i {
+  font-size: 1.7rem;
+  background-color: #107BE9;
+  color: white;
+  padding: 1rem;
+  border-radius: 2rem;
+  transition: all 0.3s ease;
+}
+footer .social__group i:hover {
+  background-color: #0d62b9;
+}
+
+#vch, #ak {
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
 }/*# sourceMappingURL=main.css.map */

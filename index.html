@@ -24,10 +24,15 @@
 <!-- OWL CAROUSEL  -->
 <link rel="stylesheet" href="./css/owl.carousel.min.css" />
 <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
-<!-- Main css  -->
 
-<link rel="stylesheet" href="./css/main.css" />
+<!-- ANIMATE CSS  -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- Main css  -->
 <link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/main.css" />
 <link rel="stylesheet" href="./css/reset.css">
 </head>
 
@@ -363,11 +368,12 @@
     <!-- Pricing -->
     <section class="pricing section bg-light">
         <div class="container">
-            <div class="row title mb-5">
+            <div class="row title">
                 <div class="col-12">
                     <span>PLANS</span>
                     <h1>Pricing</h1>
-                    <p>Pricing for everyone. Choose your plan now!</p>
+                    <p class="title-2">Pricing for everyone. Choose your plan now!</p>
+
                 </div>
             </div>
             <div class="row pricing__content">
@@ -380,7 +386,7 @@
                                         <sup>$</sup>
                                         <span>0</span>
                                     </span>
-                                    <span class="price__sub d-block mb-4"> Free </span>
+                                    <span class="price__sub d-block"> Free </span>
                                 </div>
                             </div>
                             <ul class="pricing__list list list-unstyled mb-5">
@@ -394,7 +400,7 @@
                                     <i class="fa fa-check"></i> Far from the countries Vokalia and Consonantia
                                 </li>
                             </ul>
-                            <p class="pricing__get text-center m-0">
+                            <p class="button__blue text-center m-0">
                                 <a class="btn btn-outline-primary" href="#">GET STARTED</a>
                             </p>
                         </div>
@@ -409,7 +415,7 @@
                                         <sup>$</sup>
                                         <span>19.99</span>
                                     </span>
-                                    <span class="price__sub d-block mb-4"> Standard </span>
+                                    <span class="price__sub d-block"> Standard </span>
                                 </div>
                             </div>
                             <ul class="pricing__list list list-unstyled mb-5">
@@ -465,13 +471,13 @@
     <!-- TESTIMONIALS -->
     <div class="testimonials section">
         <div class="container">
-            <div class="row title mb-5">
+            <div class="row title">
                 <div class="col-12">
                     <span>TESTIMONIALS</span>
                     <h1>What Our Client Says..</h1>
                 </div>
             </div>
-            <div class="row pt-5 position-relative">
+            <div class="row position-relative">
                 <div class="col-12">
                     <div class="owl-carousel owl-theme">
                         <div class="item">
@@ -563,12 +569,12 @@
                     <div class="company__content">
                         <p class="mt-4">Far far away, behind the word mountains, far from the countries Vokalia and
                             Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the
-                            coast</pc>
-                            <p class="mt-4">Separated they <span class="hightlight">live in Bookmarksgrove right at the
-                                    coast of the Semantics</span>, a large language ocean. A small river named Duden
-                                flows by their place and supplies it with the necessary
-                                regelialia.
-                            </p>
+                            coast</p>
+                        <p class="mt-4">Separated they <span class="hightlight">live in Bookmarksgrove right at the
+                                coast of the Semantics</span>, a large language ocean. A small river named Duden flows
+                            by their place and supplies it with the necessary
+                            regelialia.
+                        </p>
                     </div>
                     <ul class="company__list list list-unstyled mb-5">
                         <li>
@@ -581,11 +587,276 @@
                             <i class="fa fa-check"></i> Far from the countries Vokalia and Consonantia
                         </li>
                     </ul>
+                    <div class="company__numbers__item d-flex">
+                        <span>
+                            <p class="company__numbers__item__title">24M</p>
+                            <p class="company__numbers__item__text">MEMEBERS</p>
+                        </span>
+                        <span>
+                            <p class="company__numbers__item__title">121</p>
+                            <p class="company__numbers__item__text">TEAM</p>
+                        </span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- THE TEAM  -->
+    <section class="teams section">
+        <div class="container">
+            <div class="row title text-start">
+                <div class="col-12">
+                    <span>TEAM</span>
+                    <h1>The Team</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="teams__member">
+                        <img class="rounded-circle" src="./images/person_1.jpg" alt="">
+                        <h1 class="fw-bold">Job Smith</h1>
+                        <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                            ocean. A small river named Duden flows by their place and supplies it with the necessary
+                            regelialia. Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="teams__member">
+                        <img class="rounded-circle" src="./images/person_2.jpg" alt="">
+                        <h1 class="fw-bold">Jenny Wilson</h1>
+                        <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                            ocean. A small river named Duden flows by their place and supplies it with the necessary
+                            regelialia.</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="teams__member">
+                        <img class="rounded-circle" src="./images/person_3.jpg" alt="">
+                        <h1 class="fw-bold">Richard Cruise</h1>
+                        <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                            ocean. A small river named Duden flows by their place and supplies it with the necessary
+                            regelialia.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Blog -->
+    <section class="blog section bg-light">
+        <div class="container">
+            <div class="row title">
+                <div class="col-12">
+                    <span>BLOG</span>
+                    <h1>Recent Blog Posts</h1>
+                    <p>Far from the countries Vokalia and Consonantia</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 animate__animated animate__bounce aos-init aos-animate">
+                    <div class="blog__item">
+                        <div class="blog__item__title">
+                            <span class="blog__item__title__img">
+                                <img class="img-fluid rounded-circle" src="./images/person_1.jpg" alt="">
+                            </span>
+                            <span>
+                                <h5>Posted by Job</h5>
+                                <p>Jun 14, 2020</p>
+                            </span>
+                        </div>
+                        <div class="blog__item__text">
+                            <p>Managing the risks of deploying software</p>
+                            <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
+                                language
+                                ocean. A small river named Duden flows by their place and supplies it with the necessary
+                                regelialia.</p>
+                        </div>
+                        <p class="blog__item__details">Digital Service, 4 min read</p>
+                        <div class="blog__item__arrow">
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-4">
+                    <div class="blog__item">
+                        <div class="blog__item__title">
+                            <span class="blog__item__title__img">
+                                <img class="img-fluid rounded-circle" src="./images/person_1.jpg" alt="">
+                            </span>
+                            <span>
+                                <h5>Posted by Job</h5>
+                                <p>Jun 14, 2020</p>
+                            </span>
+                        </div>
+                        <div class="blog__item__text">
+                            <p>Managing the risks of deploying software</p>
+                            <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
+                                language
+                                ocean. A small river named Duden flows by their place and supplies it with the necessary
+                                regelialia.</p>
+                        </div>
+                        <p class="blog__item__details">Digital Service, 4 min read</p>
+                        <div class="blog__item__arrow">
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="col-4">
+                    <div class="blog__item">
+                        <div class="blog__item__title">
+                            <span class="blog__item__title__img">
+                                <img class="img-fluid rounded-circle" src="./images/person_1.jpg" alt="">
+                            </span>
+                            <span>
+                                <h5>Posted by Job</h5>
+                                <p>Jun 14, 2020</p>
+                            </span>
+                        </div>
+                        <div class="blog__item__text">
+                            <p>Managing the risks of deploying software</p>
+                            <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
+                                language
+                                ocean. A small river named Duden flows by their place and supplies it with the necessary
+                                regelialia.</p>
+                        </div>
+                        <p class="blog__item__details">Digital Service, 4 min read</p>
+                        <div class="blog__item__arrow">
+                            <i class="fa fa-arrow-right"></i>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact  -->
+    <section class="contact section">
+        <div class="container">
+            <div class="row title">
+                <div class="col-12">
+                    <span>CONTACT</span>
+                    <h1>Get In Touch</h1>
+                    <p>Far from the countries Vokalia and Consonantia</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-7">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="">First name</label>
+                                <input class="form-control" type="text">
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="">Last name</label>
+                                <input class="form-control" type="text">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label for="form label">Email address</label>
+                                <input class="form-control" type="text" name="" id="">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-group">
+                                <label for="" class="form-label">Message</label>
+                                <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <span class="button__blue active text-center m-0">
+                                <a class="btn btn-outline-primary pricing__active" href="#">Send message</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 ms-auto">
+                    <div class="contact__right">
+                        <h1>Contact Info</h1>
+                        <div><i class="fa fa-map-marker-alt"></i>
+                            <span>43 Raymouth Rd. Baltemoer, London 3910</span>
+                        </div>
+                        <ul class="list-unstyled">
+                            <li><a href="tel://11234567890/"><i class="fa fa-phone"></i> 0865100640</a></li>
+                            <li><a href="tel://0865100640/"><i class="fa fa-phone"></i> 0913615690</a></li>
+                            <li><a href="mail:daongocanhkhoi@gmail.com"><i class="fa fa-envelope"></i>daongocanhkhoi@gmail.com</a></li>
+                            <li><a href=""><i class="fa fa-globe-asia"></i> youtube.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER  -->
+    <footer class="section bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h1 class="footer__title">About Launch.</h1>
+                    <p class="footer__text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    <h1 class="footer__title">Follow Us</h1>
+                    <div class="social__group">
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fab fa-pinterest"></i>
+                        <i class="fab fa-dribbble"></i>
+                    </div>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <h1 class="footer__title">Projects</h1>
+                    <ul class="unstyled-list w-100">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2">
+                    <h1 class="footer__title">Services</h1>
+                    <ul class="unstyled-list">
+                        <li><a href="#">Built for Developers
+                        </a></li>
+                        <li><a href="#">Modern Design</a></li>
+                        <li><a href="#">Building Stunning Websites</a></li>
+                        <li><a href="#">Bring Ideas To Life</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h1 class="footer__title">Quick Contact</h1>
+                    <ul class="unstyled-list">
+                        <li><a href="#">43 Raymouth Rd. Baltemoer, London 3910
+                        </a></li>
+                        <li><a href="tel://113/">0865100640</a></li>
+                        <li><a href="tel://113/">0865100640</a></li>
+                        <li><a href="#">daongocanhkhoi@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 mt-5">
+                    <p>Copyright ©2023. All Rights Reserved. — Designed with <a href="https://www.facebook.com/hieu.vanchi.33" id="vch">Van Chi Hieu</a> - <a href="https://www.facebook.com/daongocanhkhoihocgioi/" id="ak">Anh Khoi</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- JQUERY -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
         integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
@@ -593,7 +864,7 @@
     <!-- BOOSTRAP 5 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
-    </script>
+        </script>
 
     <!-- OWL carousel  -->
     <script src="./js/owl.carousel.min.js"></script>
@@ -601,7 +872,7 @@
         $(".owl-carousel").owlCarousel({
             loop: true,
             margin: 10,
-            nav: true,
+            nav: false,
             responsive: {
                 0: {
                     items: 2,

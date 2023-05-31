@@ -1,14 +1,20 @@
 .title {
     line-height: 35px;
     text-align: center;
+    margin-bottom: 4.8rem;
     span {
-        @include styleTextBasic($color-blue-0, $fs-1, $fw-700);
+        @include styleTextBasic($color-blue-0,$fs-1, $fw-700);
     }
 
     h1 {
-        @include styleTextBasic($color-black, $fs-3 + 3, $fw-600);
+        @include styleTextBasic($color-black, $fs-3, $fw-600);
+    }
+
+    p {
+        font-size: 1.7rem;
     }
 }
+
 
 .hightlight {
     display: inline;

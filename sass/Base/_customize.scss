@@ -34,12 +34,10 @@ html {
     }
     .owl-theme {
         .owl-dots {
-            position: absolute;
-            bottom: -30%;
-            right: 48%; 
-            .owl-dot.active {
+            .owl-dot {
                 span {
-                    background-color: $color-blue-0;
+                    width: 9px;
+                    height: 9px;
                 }
             }
         }  
